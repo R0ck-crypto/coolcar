@@ -1,0 +1,28 @@
+<!--pages/mytrips/mytrips.wxml-->
+<swiper
+autoplay="{{autoplay}}"
+bindchange= "onSwiperChange">
+    <swiper-item wx:for="{{promotionItems}}" wx:key = "promotionID" 
+    >
+        <image class="swipper-images" src="{{item.img}}" bindtap="onPromotionItemTap"
+    data-promotion-ID="{{item.promotionID}}"/>
+    </swiper-item>
+</swiper>
+
+<view class="avatar-container margin-top margin-right-xl">
+    <view class="avatar margin-right">
+        <block wx:if="{{!hasUserInfo}}">
+            <button bindtap="getUserProfile" class="cu-avatar round lg">
+                <text class="cuIcon-people"></text>
+            </button>
+        </block>
+        <block wx:else>
+            <image src="{{userInfo.avatarUrl}}" class="cu-avatar round lg" />
+        </block>
+    </view>
+    <view class="text-blue" bindtap = "onRegisterTap">
+        <text >驾驶资格{{licStatus}}</text>
+    </view>
+</view>
+
+

@@ -1,0 +1,39 @@
+/**index.wxss**/
+page {
+  width: 100%;
+  height:100%;
+}
+
+#myMap {
+  width: 100%;
+  height:100%;
+}
+
+.icon-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width:87rpx;
+  margin-top: 30rpx;
+  height:136rpx;
+  opacity: .6;
+}
+
+.icon-container cover-image{
+  width: 60rpx;
+  height: 60rpx;
+ 
+}
+
+.btn-content {
+  width: 80%;
+  margin-left: 75rpx;
+  bottom: 7%;
+  position:absolute;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+}

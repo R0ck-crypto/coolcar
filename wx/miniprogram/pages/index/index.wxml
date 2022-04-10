@@ -1,0 +1,32 @@
+<map
+   id="myMap"
+   latitude="{{latitude}}"
+   longitude="{{longitude}}"
+   markers="{{markers}}"
+   covers="{{covers}}"
+   show-location
+   >
+
+   <view class = "icon-container">
+      <block wx:if="{{!hasUserInfo}}">
+          <cover-image src="/resources/account.png" bindtap="onMyTripsTap"></cover-image>
+      </block>
+
+      <block wx:else>
+          <cover-image src="{{userInfo.avatarUrl}}" bindtap="onMyTripsTap"></cover-image>
+      </block>
+     
+      <cover-image src="/resources/my_location.png" bindtap = "onMyLocationTap"></cover-image>
+   </view>
+
+   <cover-view class="btn-content bg-grey round" bindtap = "onScanTap">
+      扫码租车
+   </cover-view>
+</map>
+<modal id="licModal" title="身份认证" contents="需要身份认证才能租车"></modal>
+<modal id="tripModal" title="行程中" contents="当前有正在进行中的行程，将跳转到行程页面"></modal>
+
+
+   
+    
+  

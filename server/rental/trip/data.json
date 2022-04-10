@@ -1,0 +1,44 @@
+{
+  "account_id": "account1",
+  "carID": "car1",
+  "start": {
+    "location": {
+      "latitude": 32.1,
+      "longitude": 114.1
+    },
+    "poi_name": "天河体育中心",
+    "timestamp_sec": 1647680506
+  },
+  "current": {
+    "location": {
+      "latitude": 32.1,
+      "longitude": 114.1
+    },
+    "poi_name": "天河体育中心",
+    "timestamp_sec": 1647680506
+  },
+  "status": 1,
+  "identity_id": "identity1"
+}
+{
+  "account_id": "account4",
+  "carID": "car1",
+  "start": {
+    "location": {
+      "latitude": 32.1,
+      "longitude": 114.1
+    },
+    "poi_name": "天河体育中心",
+    "timestamp_sec": 1647680506
+  },
+  "current": {
+    "location": {
+      "latitude": 32.1,
+      "longitude": 114.1
+    },
+    "poi_name": "天河体育中心",
+    "timestamp_sec": 1647680506
+  },
+  "status": 1,
+  "identity_id": "identity1"
+}

@@ -1,0 +1,66 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "",
+                    "pathName": "pages/lock/lock",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/driving/driving",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/mytrips/mytrips",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/register/register",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/lock/lock",
+                    "query": "carID = 123",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/lock/lock",
+                    "query": "car_id = 'demo_car'",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/lock/lock",
+                    "query": "car_id=demo_car",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
